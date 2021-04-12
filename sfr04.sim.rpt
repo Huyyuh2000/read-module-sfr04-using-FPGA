@@ -1,0 +1,349 @@
+Simulator report for sfr04
+Mon Apr 12 20:38:32 2021
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------+
+; Simulator Summary                           ;
++-----------------------------+---------------+
+; Type                        ; Value         ;
++-----------------------------+---------------+
+; Simulation Start Time       ; 0 ps          ;
+; Simulation End Time         ; 15.0 ms       ;
+; Simulation Netlist Size     ; 98 nodes      ;
+; Simulation Coverage         ;      70.29 %  ;
+; Total Number of Transitions ; 295149        ;
+; Simulation Breakpoints      ; 0             ;
+; Family                      ; MAX II        ;
+; Device                      ; EPM2210F324I5 ;
++-----------------------------+---------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      70.29 % ;
+; Total nodes checked                                 ; 98           ;
+; Total output ports checked                          ; 138          ;
+; Total output ports with complete 1/0-value coverage ; 97           ;
+; Total output ports with no 1/0-value coverage       ; 41           ;
+; Total output ports with no 1-value coverage         ; 41           ;
+; Total output ports with no 0-value coverage         ; 41           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++---------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                         ;
++----------------------+---------------------------+------------------+
+; Node Name            ; Output Port Name          ; Output Port Type ;
++----------------------+---------------------------+------------------+
+; |sfr04|D[0]~reg0     ; |sfr04|D[0]~reg0          ; regout           ;
+; |sfr04|D[1]~reg0     ; |sfr04|D[1]~reg0          ; regout           ;
+; |sfr04|D[2]~reg0     ; |sfr04|D[2]~reg0          ; regout           ;
+; |sfr04|D[3]~reg0     ; |sfr04|D[3]~reg0          ; regout           ;
+; |sfr04|D[4]~reg0     ; |sfr04|D[4]~reg0          ; regout           ;
+; |sfr04|D[5]~reg0     ; |sfr04|D[5]~reg0          ; regout           ;
+; |sfr04|D[6]~reg0     ; |sfr04|D[6]~reg0          ; regout           ;
+; |sfr04|D[7]~reg0     ; |sfr04|D[7]~reg0          ; regout           ;
+; |sfr04|D[8]~reg0     ; |sfr04|D[8]~reg0          ; regout           ;
+; |sfr04|count[3]~reg0 ; |sfr04|count[3]~reg0      ; regout           ;
+; |sfr04|T[0]~reg0     ; |sfr04|T[0]~reg0          ; regout           ;
+; |sfr04|T[1]~reg0     ; |sfr04|T[1]~reg0          ; regout           ;
+; |sfr04|T[2]~reg0     ; |sfr04|T[2]~reg0          ; regout           ;
+; |sfr04|T[3]~reg0     ; |sfr04|T[3]~reg0          ; regout           ;
+; |sfr04|T[4]~reg0     ; |sfr04|T[4]~reg0          ; regout           ;
+; |sfr04|T[5]~reg0     ; |sfr04|T[5]~reg0          ; regout           ;
+; |sfr04|T[6]~reg0     ; |sfr04|T[6]~reg0          ; regout           ;
+; |sfr04|T[7]~reg0     ; |sfr04|T[7]~reg0          ; regout           ;
+; |sfr04|T[8]~reg0     ; |sfr04|T[8]~reg0          ; regout           ;
+; |sfr04|T[9]~reg0     ; |sfr04|T[9]~reg0          ; regout           ;
+; |sfr04|always0~0     ; |sfr04|always0~0          ; combout          ;
+; |sfr04|always0~1     ; |sfr04|always0~1          ; combout          ;
+; |sfr04|always0~2     ; |sfr04|always0~2          ; combout          ;
+; |sfr04|Equal1~0      ; |sfr04|Equal1~0           ; combout          ;
+; |sfr04|temp[0]       ; |sfr04|temp[0]            ; regout           ;
+; |sfr04|temp[0]       ; |sfr04|temp[0]~1          ; cout0            ;
+; |sfr04|temp[0]       ; |sfr04|temp[0]~1COUT1_46  ; cout1            ;
+; |sfr04|D[0]~0        ; |sfr04|D[0]~0             ; combout          ;
+; |sfr04|temp[1]       ; |sfr04|temp[1]            ; regout           ;
+; |sfr04|temp[1]       ; |sfr04|temp[1]~3          ; cout0            ;
+; |sfr04|temp[1]       ; |sfr04|temp[1]~3COUT1_48  ; cout1            ;
+; |sfr04|temp[2]       ; |sfr04|temp[2]            ; regout           ;
+; |sfr04|temp[2]       ; |sfr04|temp[2]~5          ; cout             ;
+; |sfr04|temp[3]       ; |sfr04|temp[3]            ; regout           ;
+; |sfr04|temp[3]       ; |sfr04|temp[3]~7COUT1_50  ; cout1            ;
+; |sfr04|temp[4]       ; |sfr04|temp[4]            ; regout           ;
+; |sfr04|temp[4]       ; |sfr04|temp[4]~9COUT1_52  ; cout1            ;
+; |sfr04|temp[5]       ; |sfr04|temp[5]            ; regout           ;
+; |sfr04|temp[5]       ; |sfr04|temp[5]~11COUT1_54 ; cout1            ;
+; |sfr04|temp[6]       ; |sfr04|temp[6]            ; regout           ;
+; |sfr04|temp[6]       ; |sfr04|temp[6]~13COUT1_56 ; cout1            ;
+; |sfr04|temp[7]       ; |sfr04|temp[7]            ; regout           ;
+; |sfr04|temp[7]       ; |sfr04|temp[7]~15         ; cout             ;
+; |sfr04|temp[8]       ; |sfr04|temp[8]            ; regout           ;
+; |sfr04|temp[8]       ; |sfr04|temp[8]~17         ; cout0            ;
+; |sfr04|Equal1~1      ; |sfr04|Equal1~1           ; combout          ;
+; |sfr04|Add1~0        ; |sfr04|Add1~0             ; combout          ;
+; |sfr04|Add1~0        ; |sfr04|Add1~2             ; cout0            ;
+; |sfr04|Add1~0        ; |sfr04|Add1~2COUT1_60     ; cout1            ;
+; |sfr04|always0~3     ; |sfr04|always0~3          ; combout          ;
+; |sfr04|Add1~5        ; |sfr04|Add1~5             ; combout          ;
+; |sfr04|Add1~5        ; |sfr04|Add1~7             ; cout0            ;
+; |sfr04|Add1~5        ; |sfr04|Add1~7COUT1_62     ; cout1            ;
+; |sfr04|Add1~10       ; |sfr04|Add1~10            ; combout          ;
+; |sfr04|Add1~10       ; |sfr04|Add1~12            ; cout0            ;
+; |sfr04|Add1~10       ; |sfr04|Add1~12COUT1_64    ; cout1            ;
+; |sfr04|Add1~15       ; |sfr04|Add1~15            ; combout          ;
+; |sfr04|Add1~15       ; |sfr04|Add1~17            ; cout0            ;
+; |sfr04|Add1~15       ; |sfr04|Add1~17COUT1_66    ; cout1            ;
+; |sfr04|Add1~20       ; |sfr04|Add1~20            ; combout          ;
+; |sfr04|Add1~20       ; |sfr04|Add1~22            ; cout             ;
+; |sfr04|Add1~25       ; |sfr04|Add1~25            ; combout          ;
+; |sfr04|Add1~25       ; |sfr04|Add1~27            ; cout0            ;
+; |sfr04|Add1~30       ; |sfr04|Add1~30            ; combout          ;
+; |sfr04|Add1~30       ; |sfr04|Add1~32            ; cout0            ;
+; |sfr04|Add1~35       ; |sfr04|Add1~35            ; combout          ;
+; |sfr04|Add1~35       ; |sfr04|Add1~37            ; cout0            ;
+; |sfr04|Add1~40       ; |sfr04|Add1~40            ; combout          ;
+; |sfr04|Add1~40       ; |sfr04|Add1~42            ; cout0            ;
+; |sfr04|Add1~45       ; |sfr04|Add1~45            ; combout          ;
+; |sfr04|always0~4     ; |sfr04|always0~4          ; combout          ;
+; |sfr04|clk           ; |sfr04|clk~corein         ; combout          ;
+; |sfr04|EchoPulse     ; |sfr04|EchoPulse~corein   ; combout          ;
+; |sfr04|Trigger       ; |sfr04|Trigger            ; padio            ;
+; |sfr04|D[0]          ; |sfr04|D[0]               ; padio            ;
+; |sfr04|D[1]          ; |sfr04|D[1]               ; padio            ;
+; |sfr04|D[2]          ; |sfr04|D[2]               ; padio            ;
+; |sfr04|D[3]          ; |sfr04|D[3]               ; padio            ;
+; |sfr04|D[4]          ; |sfr04|D[4]               ; padio            ;
+; |sfr04|D[5]          ; |sfr04|D[5]               ; padio            ;
+; |sfr04|D[6]          ; |sfr04|D[6]               ; padio            ;
+; |sfr04|D[7]          ; |sfr04|D[7]               ; padio            ;
+; |sfr04|D[8]          ; |sfr04|D[8]               ; padio            ;
+; |sfr04|count[0]      ; |sfr04|count[0]           ; padio            ;
+; |sfr04|count[1]      ; |sfr04|count[1]           ; padio            ;
+; |sfr04|count[2]      ; |sfr04|count[2]           ; padio            ;
+; |sfr04|count[3]      ; |sfr04|count[3]           ; padio            ;
+; |sfr04|T[0]          ; |sfr04|T[0]               ; padio            ;
+; |sfr04|T[1]          ; |sfr04|T[1]               ; padio            ;
+; |sfr04|T[2]          ; |sfr04|T[2]               ; padio            ;
+; |sfr04|T[3]          ; |sfr04|T[3]               ; padio            ;
+; |sfr04|T[4]          ; |sfr04|T[4]               ; padio            ;
+; |sfr04|T[5]          ; |sfr04|T[5]               ; padio            ;
+; |sfr04|T[6]          ; |sfr04|T[6]               ; padio            ;
+; |sfr04|T[7]          ; |sfr04|T[7]               ; padio            ;
+; |sfr04|T[8]          ; |sfr04|T[8]               ; padio            ;
+; |sfr04|T[9]          ; |sfr04|T[9]               ; padio            ;
++----------------------+---------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------------------------+
+; Missing 1-Value Coverage                                          ;
++-------------------+----------------------------+------------------+
+; Node Name         ; Output Port Name           ; Output Port Type ;
++-------------------+----------------------------+------------------+
+; |sfr04|D[9]~reg0  ; |sfr04|D[9]~reg0           ; regout           ;
+; |sfr04|D[10]~reg0 ; |sfr04|D[10]~reg0          ; regout           ;
+; |sfr04|D[11]~reg0 ; |sfr04|D[11]~reg0          ; regout           ;
+; |sfr04|D[12]~reg0 ; |sfr04|D[12]~reg0          ; regout           ;
+; |sfr04|D[13]~reg0 ; |sfr04|D[13]~reg0          ; regout           ;
+; |sfr04|D[14]~reg0 ; |sfr04|D[14]~reg0          ; regout           ;
+; |sfr04|D[15]~reg0 ; |sfr04|D[15]~reg0          ; regout           ;
+; |sfr04|temp[3]    ; |sfr04|temp[3]~7           ; cout0            ;
+; |sfr04|temp[4]    ; |sfr04|temp[4]~9           ; cout0            ;
+; |sfr04|temp[5]    ; |sfr04|temp[5]~11          ; cout0            ;
+; |sfr04|temp[6]    ; |sfr04|temp[6]~13          ; cout0            ;
+; |sfr04|temp[8]    ; |sfr04|temp[8]~17COUT1_58  ; cout1            ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]             ; regout           ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]~19          ; cout0            ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]~19COUT1_60  ; cout1            ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]            ; regout           ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]~21         ; cout0            ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]~21COUT1_62 ; cout1            ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]            ; regout           ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]~23         ; cout0            ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]~23COUT1_64 ; cout1            ;
+; |sfr04|temp[12]   ; |sfr04|temp[12]            ; regout           ;
+; |sfr04|temp[12]   ; |sfr04|temp[12]~25         ; cout             ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]            ; regout           ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]~27         ; cout0            ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]~27COUT1_66 ; cout1            ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]            ; regout           ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]~29         ; cout0            ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]~29COUT1_68 ; cout1            ;
+; |sfr04|temp[15]   ; |sfr04|temp[15]            ; regout           ;
+; |sfr04|Add1~25    ; |sfr04|Add1~27COUT1_68     ; cout1            ;
+; |sfr04|Add1~30    ; |sfr04|Add1~32COUT1_70     ; cout1            ;
+; |sfr04|Add1~35    ; |sfr04|Add1~37COUT1_72     ; cout1            ;
+; |sfr04|Add1~40    ; |sfr04|Add1~42COUT1_74     ; cout1            ;
+; |sfr04|D[9]       ; |sfr04|D[9]                ; padio            ;
+; |sfr04|D[10]      ; |sfr04|D[10]               ; padio            ;
+; |sfr04|D[11]      ; |sfr04|D[11]               ; padio            ;
+; |sfr04|D[12]      ; |sfr04|D[12]               ; padio            ;
+; |sfr04|D[13]      ; |sfr04|D[13]               ; padio            ;
+; |sfr04|D[14]      ; |sfr04|D[14]               ; padio            ;
+; |sfr04|D[15]      ; |sfr04|D[15]               ; padio            ;
++-------------------+----------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------------------------+
+; Missing 0-Value Coverage                                          ;
++-------------------+----------------------------+------------------+
+; Node Name         ; Output Port Name           ; Output Port Type ;
++-------------------+----------------------------+------------------+
+; |sfr04|D[9]~reg0  ; |sfr04|D[9]~reg0           ; regout           ;
+; |sfr04|D[10]~reg0 ; |sfr04|D[10]~reg0          ; regout           ;
+; |sfr04|D[11]~reg0 ; |sfr04|D[11]~reg0          ; regout           ;
+; |sfr04|D[12]~reg0 ; |sfr04|D[12]~reg0          ; regout           ;
+; |sfr04|D[13]~reg0 ; |sfr04|D[13]~reg0          ; regout           ;
+; |sfr04|D[14]~reg0 ; |sfr04|D[14]~reg0          ; regout           ;
+; |sfr04|D[15]~reg0 ; |sfr04|D[15]~reg0          ; regout           ;
+; |sfr04|temp[3]    ; |sfr04|temp[3]~7           ; cout0            ;
+; |sfr04|temp[4]    ; |sfr04|temp[4]~9           ; cout0            ;
+; |sfr04|temp[5]    ; |sfr04|temp[5]~11          ; cout0            ;
+; |sfr04|temp[6]    ; |sfr04|temp[6]~13          ; cout0            ;
+; |sfr04|temp[8]    ; |sfr04|temp[8]~17COUT1_58  ; cout1            ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]             ; regout           ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]~19          ; cout0            ;
+; |sfr04|temp[9]    ; |sfr04|temp[9]~19COUT1_60  ; cout1            ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]            ; regout           ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]~21         ; cout0            ;
+; |sfr04|temp[10]   ; |sfr04|temp[10]~21COUT1_62 ; cout1            ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]            ; regout           ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]~23         ; cout0            ;
+; |sfr04|temp[11]   ; |sfr04|temp[11]~23COUT1_64 ; cout1            ;
+; |sfr04|temp[12]   ; |sfr04|temp[12]            ; regout           ;
+; |sfr04|temp[12]   ; |sfr04|temp[12]~25         ; cout             ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]            ; regout           ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]~27         ; cout0            ;
+; |sfr04|temp[13]   ; |sfr04|temp[13]~27COUT1_66 ; cout1            ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]            ; regout           ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]~29         ; cout0            ;
+; |sfr04|temp[14]   ; |sfr04|temp[14]~29COUT1_68 ; cout1            ;
+; |sfr04|temp[15]   ; |sfr04|temp[15]            ; regout           ;
+; |sfr04|Add1~25    ; |sfr04|Add1~27COUT1_68     ; cout1            ;
+; |sfr04|Add1~30    ; |sfr04|Add1~32COUT1_70     ; cout1            ;
+; |sfr04|Add1~35    ; |sfr04|Add1~37COUT1_72     ; cout1            ;
+; |sfr04|Add1~40    ; |sfr04|Add1~42COUT1_74     ; cout1            ;
+; |sfr04|D[9]       ; |sfr04|D[9]                ; padio            ;
+; |sfr04|D[10]      ; |sfr04|D[10]               ; padio            ;
+; |sfr04|D[11]      ; |sfr04|D[11]               ; padio            ;
+; |sfr04|D[12]      ; |sfr04|D[12]               ; padio            ;
+; |sfr04|D[13]      ; |sfr04|D[13]               ; padio            ;
+; |sfr04|D[14]      ; |sfr04|D[14]               ; padio            ;
+; |sfr04|D[15]      ; |sfr04|D[15]               ; padio            ;
++-------------------+----------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon Apr 12 20:38:31 2021
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off sfr04 -c sfr04
+Info: Using vector source file "D:/Study/Embeded System/Embeded control system/BTVN/VHDL/sfr04/sfr04.vwf"
+Info: Inverted registers were found during simulation
+    Info: Register: |sfr04|count[1]~reg0
+    Info: Register: |sfr04|count[3]~reg0
+    Info: Register: |sfr04|T[3]~reg0
+    Info: Register: |sfr04|T[5]~reg0
+    Info: Register: |sfr04|T[6]~reg0
+    Info: Register: |sfr04|T[7]~reg0
+    Info: Register: |sfr04|T[8]~reg0
+    Info: Register: |sfr04|T[9]~reg0
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      70.29 %
+Info: Number of transitions in simulation is 295149
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 147 megabytes
+    Info: Processing ended: Mon Apr 12 20:38:32 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+
